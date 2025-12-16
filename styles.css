@@ -1,0 +1,365 @@
+:root {
+    --bg: #0b0f1a;
+    --primary: #00ffcc;
+    --secondary: #ff0080;
+    --text: #e0e0e0;
+    --card: #11162a;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(circle at top, #11183a, var(--bg));
+    color: var(--text);
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 20px 20px;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: var(--primary);
+    font-size: 28px;
+    text-shadow: 0 0 10px var(--primary);
+    line-height: 1.8;
+}
+
+header h2 {
+    color: var(--secondary);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--primary);
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+    margin-bottom: 20px;
+}
+
+.lang-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--card);
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.3);
+}
+
+.lang-toggle:hover {
+    background: var(--primary);
+    color: #000;
+}
+
+section {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    background: var(--card);
+    border: 2px solid var(--primary);
+    box-shadow: 0 0 20px rgba(0, 255, 204, .2);
+    animation: fadeUp .8s ease both;
+}
+
+.contact-section {
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    border-left: 4px solid var(--secondary);
+    padding-left: 12px;
+}
+
+.bar {
+    background: #222;
+    border: 1px solid var(--primary);
+    height: 18px;
+    margin-top: 6px;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    opacity: .7;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.scanlines::after {
+    content: '';
+    pointer-events: none;
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.03) 0px,
+            rgba(255, 255, 255, 0.03) 1px,
+            transparent 2px,
+            transparent 4px);
+}
+
+.socials {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.socials a, .socials i {
+    opacity: 0;
+    animation: fadeInIcons 0.6s ease forwards;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.socials a:nth-child(1), .socials i:nth-child(4) {
+    color: #0077b5;
+}
+
+.socials a:nth-child(2) {
+    color: #333;
+}
+
+.socials a:nth-child(3) {
+    color: #E4405F;
+}
+
+.socials a:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.socials a:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.socials a:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeInIcons {
+    to {
+        opacity: 1;
+    }
+}
+
+.socials a:hover, .socials i:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 10px currentColor;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 20px;
+    perspective: 1000px;
+}
+
+.experience-card {
+    background: rgba(0, 0, 0, 0.35);
+    border: 2px solid var(--primary);
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.15);
+    animation: fadeUp 0.6s ease both;
+    cursor: pointer;
+    height: 350px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+}
+
+.experience-card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-front {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.card-back {
+    background: rgba(0, 0, 0, 0.5);
+    transform: rotateY(180deg);
+    overflow-y: auto;
+}
+
+.card-front h4 {
+    font-family: 'Press Start 2P', cursive;
+    color: var(--primary);
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+}
+
+.card-back h4 {
+    font-family: 'Press Start 2P', cursive;
+    color: var(--secondary);
+    font-size: 18px;
+    margin: 0 0 8px 0;
+}
+
+.card-back small {
+    color: var(--text);
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.card-back ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.card-back li {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.profile-card {
+    background: rgba(0, 0, 0, 0.35);
+    border: 2px solid var(--primary);
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.15);
+    animation: fadeUp 0.6s ease both;
+    cursor: pointer;
+    height: 300px;
+    width: 100%;
+}
+
+.profile-card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.profile-card .card-back p {
+    line-height: 1.2;
+    margin: 8px 0;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.horizontal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.education-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.education-card, .other-studies-card {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 2px solid var(--primary);
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.15);
+    animation: fadeUp 0.6s ease both;
+    cursor: pointer;
+    height: 300px;
+}
+
+.education-card:hover .card-inner, .other-studies-card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.skills-card {
+    background: rgba(0, 0, 0, 0.35);
+    border: 2px solid var(--primary);
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.15);
+    animation: fadeUp 0.6s ease both;
+    cursor: pointer;
+    height: 350px;
+    width: 100%;
+}
+
+.skills-card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+section h3 {
+    background: rgba(0, 0, 0, 0.35);
+    border: 2px solid var(--primary);
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.15);
+    color: var(--primary);
+    padding: 10px 20px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    text-shadow: 0 0 10px var(--primary);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

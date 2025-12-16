@@ -1,0 +1,277 @@
+{
+    "es": {
+        "profile": [
+            "Profesional de IT con sólida experiencia en aseguramiento de calidad de software, testing funcional y automatizado.",
+            "Actualmente me desempeño como QA, participando en proyectos de mediana y gran escala, con foco en calidad, estabilidad y mejora continua.",
+            "Experiencia en automatización de pruebas, análisis de logs, testing de APIs y mantenimiento de infraestructura de testing.",
+            "Perfil técnico, organizado y proactivo, con interés en el crecimiento profesional hacia roles de mayor responsabilidad técnica."
+        ],
+        "education": [
+            {
+                "institution": "UDE",
+                "degree": "INGENIERÍA EN SISTEMAS",
+                "period": "2019 - Actualidad"
+            },
+            {
+                "institution": "FCEA",
+                "degree": "CONTADOR PUBLICO",
+                "period": "2018 – 2019"
+            },
+            {
+                "institution": "UTU",
+                "degree": "ADMINISTRACIÓN DE EMPRESAS",
+                "period": "2012 - 2017"
+            },
+            {
+                "institution": "COLEGIO Y LICEO",
+                "degree": "AGUSTÍN FERREIRO",
+                "period": "2012 – 2011"
+            }
+        ],
+        "otherStudies": [
+            {
+                "course": "Curso React Native",
+                "institution": "Coder House",
+                "period": "2023 - 2023"
+            },
+            {
+                "course": "Inglés",
+                "institution": "Instituto Dickens",
+                "period": "2022 - 2023"
+            },
+            {
+                "course": "Curso Data Science",
+                "institution": "Coder House",
+                "period": "2022 - 2022"
+            }
+        ],
+        "experience": [
+            {
+                "company": "GeneXus",
+                "role": "QA Tester Automation",
+                "period": "2022 · Actualidad",
+                "tasks": [
+                    "Diseño, ejecución y mantenimiento de pruebas automatizadas Mobile (Android e iOS).",
+                    "Ejecución de pruebas funcionales, regresiones y smoke tests.",
+                    "Análisis de logs, detección temprana de defectos y seguimiento de incidencias.",
+                    "Mantenimiento de infraestructura para ejecución de pruebas automatizadas (dispositivos físicos y virtuales).",
+                    "Colaboración técnica con equipos de desarrollo, producto y negocio."
+                ]
+            },
+            {
+                "company": "Abitab",
+                "role": "QA Tester Funcional",
+                "period": "2021 · 2022",
+                "tasks": [
+                    "Análisis, diseño y ejecución de casos de prueba funcionales (Black Box).",
+                    "Testing de aplicaciones web, sistemas transaccionales y APIs REST.",
+                    "Testing de periféricos (POS, impresoras, validadoras, cámaras).",
+                    "Análisis de logs, reporte y seguimiento de incidentes.",
+                    "Consultas SQL para validación de datos.",
+                    "Colaboración técnica con equipos funcionales y de desarrollo."
+                ]
+            },
+            {
+                "company": "These",
+                "role": "QA Tester Funcional",
+                "period": "2019 · 2021",
+                "tasks": [
+                    "Participación en proyectos de integración y migración de sistemas.",
+                    "Análisis de flujos funcionales para la creación de casos de prueba.",
+                    "Ejecución de pruebas funcionales, regresiones y UAT.",
+                    "Consultas SQL para validación e integridad de datos."
+                ]
+            },
+            {
+                "company": "Zeinal Hnos",
+                "role": "Auxiliar Contable",
+                "period": "2018 · 2019",
+                "tasks": [
+                    "Procesamiento y liquidación de haberes.",
+                    "Control y verificación de documentación contable.",
+                    "Carga y validación de información en sistemas administrativos.",
+                    "Soporte operativo al área contable y administrativa."
+                ]
+            }
+        ],
+        "skills": [
+            {
+                "name": "Ingles",
+                "level": 50
+            },
+            {
+                "name": "HTML / CSS",
+                "level": 50
+            },
+            {
+                "name": "JavaScript",
+                "level": 35
+            },
+            {
+                "name": "Python",
+                "level": 50
+            },
+            {
+                "name": "SQL",
+                "level": 65
+            },
+                        {
+                "name": "Kotlin",
+                "level": 50
+            },
+            {
+                "name": "C y C++",
+                "level": 50
+            },
+            {
+                "name": "Java",
+                "level": 30
+            },
+            {
+                "name": "Testing & QA",
+                "level": 90
+            },
+                        {
+                "name": "Scrum",
+                "level": 70
+            },
+                        {
+                "name": "Liquidacion de Sueldos",
+                "level": 90
+            },
+                        {
+                "name": "Microsft Office",
+                "level": 85
+            }
+        ],
+        "contact": {
+            "email": "sebastiansepe@outlook.es"
+        }
+    },
+    "en": {
+        "profile": [
+            "IT professional with solid experience in software quality assurance, functional and automated testing.",
+            "Currently working as a QA Automation tester, participating in medium and large-scale projects with a focus on quality, stability, and continuous improvement.",
+            "Experience in test automation, log analysis, API testing, and maintenance of testing infrastructure.",
+            "Technical, organized, and proactive profile, with a strong interest in professional growth toward roles with greater technical responsibility."
+        ],
+        "education": [
+            {
+                "institution": "UDE",
+                "degree": "SYSTEMS ENGINEERING",
+                "period": "2019 - Present"
+            },
+            {
+                "institution": "FCEA",
+                "degree": "PUBLIC ACCOUNTANT",
+                "period": "2018 – 2019"
+            },
+            {
+                "institution": "UTU",
+                "degree": "BUSINESS ADMINISTRATION",
+                "period": "2012 - 2017"
+            },
+            {
+                "institution": "COLEGIO Y LICEO",
+                "degree": "AGUSTÍN FERREIRO",
+                "period": "2012 – 2011"
+            }
+        ],
+        "otherStudies": [
+            {
+                "course": "React Native Course",
+                "institution": "Coder House",
+                "period": "2023 - 2023"
+            },
+            {
+                "course": "English",
+                "institution": "Instituto Dickens",
+                "period": "2022 - 2023"
+            },
+            {
+                "course": "Data Science Course",
+                "institution": "Coder House",
+                "period": "2022 - 2022"
+            }
+        ],
+        "experience": [
+            {
+                "company": "GeneXus",
+                "role": "QA Automation Tester",
+                "period": "2022 · Present",
+                "tasks": [
+                    "Design, execution, and maintenance of automated Mobile tests (Android and iOS).",
+                    "Execution of functional tests, regression tests, and smoke tests.",
+                    "Log analysis, early defect detection, and incident tracking.",
+                    "Maintenance of infrastructure for automated testing execution (physical and virtual devices).",
+                    "Technical collaboration with development, product, and business teams."
+                ]
+
+            },
+            {
+                "company": "Abitab",
+                "role": "Functional QA Tester",
+                "period": "2021 · 2022",
+                "tasks": [
+                    "Analysis, design, and execution of functional test cases (Black Box).",
+                    "Testing of web applications, transactional systems, and REST APIs.",
+                    "Testing of peripherals (POS devices, printers, validators, cameras).",
+                    "Log analysis, incident reporting, and tracking.",
+                    "SQL queries for data validation.",
+                    "Technical collaboration with functional and development teams."
+                ]
+            },
+            {
+                "company": "These",
+                "role": "Functional QA Tester",
+                "period": "2019 · 2021",
+                "tasks": [
+                    "Participation in system integration and migration projects.",
+                    "Functional flow analysis for test case creation.",
+                    "Execution of functional tests, regressions, and UAT.",
+                    "SQL queries for data validation and integrity."
+                ]
+            },
+            {
+                "company": "Zeinal Hnos",
+                "role": "Accounting Assistant",
+                "period": "2018 · 2019",
+                "tasks": [
+                    "Payroll processing and salary settlement.",
+                    "Control and verification of accounting documentation.",
+                    "Data entry and validation in administrative systems.",
+                    "Operational support for accounting and administrative areas."
+                ]
+            }
+        ],
+        "skills": [
+            {
+                "name": "HTML / CSS",
+                "level": 70
+            },
+            {
+                "name": "JavaScript",
+                "level": 65
+            },
+            {
+                "name": "Python",
+                "level": 50
+            },
+            {
+                "name": "SQL",
+                "level": 65
+            },
+            {
+                "name": "Testing & QA",
+                "level": 90
+            },
+            {
+                "name": "Spanish",
+                "level": 100
+            }
+        ],
+        "contact": {
+            "email": "sebastiansepe@outlook.es"
+        }
+    }
+}
