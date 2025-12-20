@@ -241,7 +241,8 @@ footer {
     transform-style: preserve-3d;
 }
 
-.experience-card:hover .card-inner {
+.experience-card:hover .card-inner,
+.experience-card:active .card-inner {
     transform: rotateY(180deg);
 }
 
@@ -330,7 +331,8 @@ footer {
     width: 100%;
 }
 
-.profile-card:hover .card-inner {
+.profile-card:hover .card-inner,
+.profile-card:active .card-inner {
     transform: rotateY(180deg);
 }
 
@@ -369,7 +371,9 @@ footer {
 }
 
 .education-card:hover .card-inner,
-.other-studies-card:hover .card-inner {
+.education-card:active .card-inner
+.other-studies-card:hover .card-inner
+.other-studies-card:active .card-inner {
     transform: rotateY(180deg);
 }
 
@@ -383,7 +387,8 @@ footer {
     width: 100%;
 }
 
-.skills-card:hover .card-inner {
+.skills-card:hover .card-inner,
+.skills-card:active .card-inner {
     transform: rotateY(180deg);
 }
 
