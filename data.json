@@ -47,8 +47,8 @@
         ],
         "experience": [
             {
-                "company": "GeneXus",
-                "role": "Qa Tester Automation",
+                "company": "GENEXUS",
+                "role": "Quality Assurance",
                 "period": "2022 · Actualidad",
                 "tasks": [
                     "Diseño, ejecución y mantenimiento de pruebas automatizadas Mobile (Android e iOS).",
@@ -59,8 +59,8 @@
                 ]
             },
             {
-                "company": "Abitab",
-                "role": "Qa Tester Funcional",
+                "company": "ABITAB",
+                "role": "Quality Assurance",
                 "period": "2021 · 2022",
                 "tasks": [
                     "Análisis, diseño y ejecución de casos de prueba funcionales (Black Box).",
@@ -72,8 +72,8 @@
                 ]
             },
             {
-                "company": "These",
-                "role": "Qa Tester Funcional",
+                "company": "THESE",
+                "role": "Quality Assurance",
                 "period": "2019 · 2021",
                 "tasks": [
                     "Participación en proyectos de integración y migración de sistemas.",
@@ -83,7 +83,7 @@
                 ]
             },
             {
-                "company": "Zeinal Hnos",
+                "company": "ZEINAL HNOS",
                 "role": "Auxiliar Contable",
                 "period": "2018 · 2019",
                 "tasks": [
@@ -196,9 +196,9 @@
         ],
         "experience": [
             {
-                "company": "GeneXus",
-                "role": "Qa Automation Tester",
-                "period": "2022 · Present",
+                "company": "GENEXUS",
+                "role": "Quality Assurance",
+                "period": "2022 · PA Automatresent",
                 "tasks": [
                     "Design, execution, and maintenance of automated Mobile tests (Android and iOS).",
                     "Execution of functional tests, regression tests, and smoke tests.",
@@ -209,8 +209,8 @@
 
             },
             {
-                "company": "Abitab",
-                "role": "Functional Qa Tester",
+                "company": "ABITAB",
+                "role": "Quality Assurance",
                 "period": "2021 · 2022",
                 "tasks": [
                     "Analysis, design, and execution of functional test cases (Black Box).",
@@ -222,8 +222,8 @@
                 ]
             },
             {
-                "company": "These",
-                "role": "Functional Qa Tester",
+                "company": "THESE",
+                "role": "Quality Assurance",
                 "period": "2019 · 2021",
                 "tasks": [
                     "Participation in system integration and migration projects.",
@@ -233,7 +233,7 @@
                 ]
             },
             {
-                "company": "Zeinal Hnos",
+                "company": "ZEINAL HNOS",
                 "role": "Accounting Assistant",
                 "period": "2018 · 2019",
                 "tasks": [
