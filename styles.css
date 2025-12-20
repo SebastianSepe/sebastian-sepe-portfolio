@@ -1,10 +1,13 @@
 :root {
-    --bg: #0b0f1a;
-    --primary: #00ffcc;
-    --secondary: #ff0080;
-    --text: #e0e0e0;
-    --card: #11162a;
+  --bg: #0f172a;        /* azul muy oscuro */
+  --card: #111827;      /* gris azulado */
+  --primary: #38bdf8;   /* azul claro */
+  --secondary: #22c55e; /* verde suave */
+  --text: #e5e7eb;      /* gris claro */
+  --muted: #9ca3af;
+  --font-primary: 'Inter', sans-serif;
 }
+
 
 * {
     box-sizing: border-box;
@@ -12,10 +15,12 @@
 
 body {
     margin: 0;
-    background: radial-gradient(circle at top, #11183a, var(--bg));
+    background: var(--bg);
     color: var(--text);
-    font-family: 'VT323', monospace;
-    font-size: 20px;
+    /* font-family: 'VT323', monospace;
+    font-size: 20px; */
+    font-family: var(--font-primary);
+    font-size: 16px;
     overflow-x: hidden;
 }
 
@@ -26,18 +31,32 @@ header {
 }
 
 header h1 {
-    font-family: 'Press Start 2P', cursive;
+    font-family: var(--font-primary);
     color: var(--primary);
-    font-size: 28px;
+    font-size: 32px;
     text-shadow: 0 0 10px var(--primary);
-    line-height: 1.8;
+    line-height: 1;
+    white-space: nowrap;
 }
 
 header h2 {
     color: var(--secondary);
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 28px;
 }
+
+header h1, section h3 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-shadow: none;
+}
+
+* {
+  transition: all .25s ease;
+}
+
 
 .profile-image {
     width: 120px;
@@ -55,7 +74,7 @@ header h2 {
     background: var(--card);
     border: 2px solid var(--primary);
     color: var(--primary);
-    font-family: 'Press Start 2P', cursive;
+    font-family: var(--font-primary);
     font-size: 12px;
     padding: 5px 10px;
     cursor: pointer;
@@ -241,7 +260,7 @@ footer {
 }
 
 .card-front h4 {
-    font-family: 'Press Start 2P', cursive;
+    font-family: var(--font-primary);
     color: var(--primary);
     font-size: 22px;
     margin: 0;
@@ -249,9 +268,9 @@ footer {
 }
 
 .card-back h4 {
-    font-family: 'Press Start 2P', cursive;
+    font-family: var(--font-primary);
     color: var(--secondary);
-    font-size: 18px;
+    font-size: 14px;
     margin: 0 0 8px 0;
 }
 
@@ -266,7 +285,7 @@ footer {
     padding: 0;
     margin: 0;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.4;
 }
 
@@ -353,9 +372,17 @@ section h3 {
     padding: 10px 20px;
     margin: 0 0 20px 0;
     text-align: center;
-    font-family: 'Press Start 2P', cursive;
+    font-family: var(--font-primary);
     font-size: 18px;
-    text-shadow: 0 0 10px var(--primary);
+    /* text-shadow: 0 0 10px var(--primary); */
+}
+
+section h2 {
+    color: var(--primary);
+    padding: 10px 20px;
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: 12px;
 }
 
 .skills-grid {

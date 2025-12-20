@@ -9,17 +9,17 @@
         "education": [
             {
                 "institution": "UDE",
-                "degree": "INGENIERÍA EN SISTEMAS",
+                "degree": "Ingeniería en Sistemas",
                 "period": "2019 - Actualidad"
             },
             {
                 "institution": "FCEA",
-                "degree": "CONTADOR PUBLICO",
+                "degree": "Contador Público",
                 "period": "2018 – 2019"
             },
             {
                 "institution": "UTU",
-                "degree": "ADMINISTRACIÓN DE EMPRESAS",
+                "degree": "Administración de Empresas",
                 "period": "2012 - 2017"
             },
             {
@@ -48,7 +48,7 @@
         "experience": [
             {
                 "company": "GeneXus",
-                "role": "QA Tester Automation",
+                "role": "Qa Tester Automation",
                 "period": "2022 · Actualidad",
                 "tasks": [
                     "Diseño, ejecución y mantenimiento de pruebas automatizadas Mobile (Android e iOS).",
@@ -60,7 +60,7 @@
             },
             {
                 "company": "Abitab",
-                "role": "QA Tester Funcional",
+                "role": "Qa Tester Funcional",
                 "period": "2021 · 2022",
                 "tasks": [
                     "Análisis, diseño y ejecución de casos de prueba funcionales (Black Box).",
@@ -73,7 +73,7 @@
             },
             {
                 "company": "These",
-                "role": "QA Tester Funcional",
+                "role": "Qa Tester Funcional",
                 "period": "2019 · 2021",
                 "tasks": [
                     "Participación en proyectos de integración y migración de sistemas.",
@@ -96,7 +96,7 @@
         ],
         "skills": [
             {
-                "name": "Ingles",
+                "name": "Inglés",
                 "level": 50
             },
             {
@@ -136,11 +136,11 @@
                 "level": 70
             },
                         {
-                "name": "Liquidacion de Sueldos",
+                "name": "Liquidación de Sueldos",
                 "level": 90
             },
                         {
-                "name": "Microsft Office",
+                "name": "Microsoft Office",
                 "level": 85
             }
         ],
@@ -158,17 +158,17 @@
         "education": [
             {
                 "institution": "UDE",
-                "degree": "SYSTEMS ENGINEERING",
+                "degree": "Systems Engineering",
                 "period": "2019 - Present"
             },
             {
                 "institution": "FCEA",
-                "degree": "PUBLIC ACCOUNTANT",
+                "degree": "Public Accountant",
                 "period": "2018 – 2019"
             },
             {
                 "institution": "UTU",
-                "degree": "BUSINESS ADMINISTRATION",
+                "degree": "Business Administration",
                 "period": "2012 - 2017"
             },
             {
@@ -197,7 +197,7 @@
         "experience": [
             {
                 "company": "GeneXus",
-                "role": "QA Automation Tester",
+                "role": "Qa Automation Tester",
                 "period": "2022 · Present",
                 "tasks": [
                     "Design, execution, and maintenance of automated Mobile tests (Android and iOS).",
@@ -210,7 +210,7 @@
             },
             {
                 "company": "Abitab",
-                "role": "Functional QA Tester",
+                "role": "Functional Qa Tester",
                 "period": "2021 · 2022",
                 "tasks": [
                     "Analysis, design, and execution of functional test cases (Black Box).",
@@ -223,7 +223,7 @@
             },
             {
                 "company": "These",
-                "role": "Functional QA Tester",
+                "role": "Functional Qa Tester",
                 "period": "2019 · 2021",
                 "tasks": [
                     "Participation in system integration and migration projects.",

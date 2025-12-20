@@ -17,7 +17,7 @@ const translations = {
         skillsTitle: "CONOCIMIENTOS TÉCNICOS",
         contactTitle: "CONTACTO",
         footerText: "¡Presiona una opción para contactar!",
-        headerSubtitle: "QA SR · DEVELOPER JR"
+        headerSubtitle: "QA Sr · Developer Jr"
     },
     en: {
         profileTitle: "PROFESSIONAL PROFILE",
@@ -27,7 +27,7 @@ const translations = {
         skillsTitle: "TECHNICAL SKILLS",
         contactTitle: "CONTACT",
         footerText: "Press one option to contact!",
-        headerSubtitle: "QA SR · DEVELOPER JR"
+        headerSubtitle: "QA Sr · Developer Jr"
     }
 };
 let currentLang = 'es';
@@ -137,10 +137,10 @@ function renderExperience(experience) {
             <div class="card-inner">
                 <div class="card-front">
                     <h4>${exp.company}</h4>
+                    <h2>${exp.role}</h2>
+                    <small>${exp.period}</small>
                 </div>
                 <div class="card-back">
-                    <h4>${exp.role}</h4>
-                    <small>${exp.period}</small>
                     <ul>
                         ${exp.tasks.map((task) => `<li>${task}</li>`).join("")}
                     </ul>
