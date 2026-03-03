@@ -4,6 +4,8 @@
             "Profesional de IT con sólida experiencia en aseguramiento de calidad de software, testing funcional y automatizado.",
             "Actualmente me desempeño como QA, participando en proyectos de mediana y gran escala, con foco en calidad, estabilidad y mejora continua.",
             "Experiencia en automatización de pruebas, análisis de logs, testing de APIs y mantenimiento de infraestructura de testing.",
+            "Desarrollo de agentes de Inteligencia Artificial aplicados a QA: procesado de logs, análisis automatizado y agentes tipo chat-with-database integrados con LLMs de Anthropic, OpenAI y Gemini.",
+            "En constante capacitación en IA, explorando su aplicación práctica en ingeniería de software y aseguramiento de calidad.",
             "Perfil técnico, organizado y proactivo, con interés en el crecimiento profesional hacia roles de mayor responsabilidad técnica."
         ],
         "education": [
@@ -55,6 +57,9 @@
                     "Ejecución de pruebas funcionales, regresiones y smoke tests.",
                     "Análisis de logs, detección temprana de defectos y seguimiento de incidencias.",
                     "Mantenimiento de infraestructura para ejecución de pruebas automatizadas (dispositivos físicos y virtuales).",
+                    "Desarrollo de agentes de Inteligencia Artificial para procesado y análisis de logs de pruebas.",
+                    "Implementación de agentes tipo chat-with-database integrados con LLMs de Anthropic, OpenAI y Gemini.",
+                    "Mockeo de servicios para pruebas automatizadas mobile mediante WireMock, generando stubs a partir de logs de sesiones previas.",
                     "Colaboración técnica con equipos de desarrollo, producto y negocio."
                 ]
             },
@@ -153,6 +158,8 @@
             "IT professional with solid experience in software quality assurance, functional and automated testing.",
             "Currently working as a QA Automation tester, participating in medium and large-scale projects with a focus on quality, stability, and continuous improvement.",
             "Experience in test automation, log analysis, API testing, and maintenance of testing infrastructure.",
+            "Development of AI agents applied to QA: log processing, automated analysis, and chat-with-database agents integrated with LLMs from Anthropic, OpenAI, and Gemini.",
+            "Continuously upskilling in Artificial Intelligence, exploring its practical applications in software engineering and quality assurance.",
             "Technical, organized, and proactive profile, with a strong interest in professional growth toward roles with greater technical responsibility."
         ],
         "education": [
@@ -198,12 +205,15 @@
             {
                 "company": "GENEXUS",
                 "role": "Quality Assurance",
-                "period": "2022 · PA Automatresent",
+                "period": "2022 · Present",
                 "tasks": [
                     "Design, execution, and maintenance of automated Mobile tests (Android and iOS).",
                     "Execution of functional tests, regression tests, and smoke tests.",
                     "Log analysis, early defect detection, and incident tracking.",
                     "Maintenance of infrastructure for automated testing execution (physical and virtual devices).",
+                    "Development of AI agents for automated test log processing and analysis.",
+                    "Implementation of chat-with-database agents integrated with LLMs from Anthropic, OpenAI, and Gemini.",
+                    "Service mocking for mobile automated tests using WireMock, generating stubs from past test session logs.",
                     "Technical collaboration with development, product, and business teams."
                 ]
 

@@ -35,23 +35,21 @@ interface CVData {
 
 const translations = {
     es: {
-        profileTitle: "PERFIL PROFESIONAL",
-        educationTitle: "EDUCACIÓN",
-        otherStudiesTitle: "OTROS ESTUDIOS",
-        experienceTitle: "EXPERIENCIA LABORAL",
-        skillsTitle: "CONOCIMIENTOS TÉCNICOS",
-        contactTitle: "CONTACTO",
-        footerText: "¡Presiona una opción para contactar!",
+        profileTitle: "Perfil Profesional",
+        educationTitle: "Educación",
+        otherStudiesTitle: "Otros Estudios",
+        experienceTitle: "Experiencia Laboral",
+        skillsTitle: "Conocimientos Técnicos",
+        footerText: "Presiona una opción para contactar",
         headerSubtitle: "QA Sr · Developer Jr"
     },
     en: {
-        profileTitle: "PROFESSIONAL PROFILE",
-        educationTitle: "EDUCATION",
-        otherStudiesTitle: "OTHER STUDIES",
-        experienceTitle: "WORK EXPERIENCE",
-        skillsTitle: "TECHNICAL SKILLS",
-        contactTitle: "CONTACT",
-        footerText: "Press one option to contact!",
+        profileTitle: "Professional Profile",
+        educationTitle: "Education",
+        otherStudiesTitle: "Other Studies",
+        experienceTitle: "Work Experience",
+        skillsTitle: "Technical Skills",
+        footerText: "Press an option to get in touch",
         headerSubtitle: "QA Sr · Developer Jr"
     }
 };
@@ -65,25 +63,45 @@ async function loadCV() {
 
     updateStaticTexts();
     renderProfile(data.profile);
-    renderEducation(data.education);
-    renderOtherStudies(data.otherStudies);
     renderExperience(data.experience);
     renderSkills(data.skills);
+    renderEducation(data.education);
+    renderOtherStudies(data.otherStudies);
     setupEmailIcon(data.contact.email);
+    initScrollObserver();
 }
 
 function updateStaticTexts() {
-    const trans = translations[currentLang];
-    document.querySelector('h2')!.textContent = trans.headerSubtitle;
-    document.querySelector('section h3')!.textContent = trans.experienceTitle;
-    document.querySelector('footer p')!.textContent = trans.footerText;
+    const t = translations[currentLang];
+
+    const heroSubtitle = document.getElementById('hero-subtitle');
+    if (heroSubtitle) heroSubtitle.textContent = t.headerSubtitle;
+
+    const profileTitle = document.getElementById('profile-title');
+    if (profileTitle) profileTitle.textContent = t.profileTitle;
+
+    const experienceTitle = document.getElementById('experience-title');
+    if (experienceTitle) experienceTitle.textContent = t.experienceTitle;
+
+    const skillsTitle = document.getElementById('skills-title');
+    if (skillsTitle) skillsTitle.textContent = t.skillsTitle;
+
+    const educationTitle = document.getElementById('education-title');
+    if (educationTitle) educationTitle.textContent = t.educationTitle;
+
+    const otherStudiesTitle = document.getElementById('other-studies-title');
+    if (otherStudiesTitle) otherStudiesTitle.textContent = t.otherStudiesTitle;
+
+    const footerText = document.getElementById('footer-text');
+    if (footerText) footerText.textContent = t.footerText;
+
     document.documentElement.lang = currentLang;
 }
 
 function toggleLanguage() {
     currentLang = currentLang === 'es' ? 'en' : 'es';
     const toggleBtn = document.getElementById('lang-toggle') as HTMLButtonElement;
-    toggleBtn.textContent = currentLang.toUpperCase();
+    if (toggleBtn) toggleBtn.textContent = currentLang.toUpperCase();
     loadCV();
 }
 
@@ -91,197 +109,169 @@ document.getElementById('lang-toggle')!.addEventListener('click', toggleLanguage
 
 function renderProfile(profile: string[]) {
     const container = document.getElementById("profile")!;
-    container.innerHTML = '';
-
-    const card = document.createElement("div");
-    card.className = "profile-card";
-
-    const frontTitle = translations[currentLang].profileTitle;
-
-    card.innerHTML = `
-        <div class="card-inner">
-            <div class="card-front">
-                <h4>${frontTitle}</h4>
-            </div>
-            <div class="card-back">
-                ${profile.map(text => `<p>${text}</p>`).join('')}
-            </div>
+    container.innerHTML = `
+        <div class="profile-block">
+            ${profile.map(p => `<p>${p}</p>`).join('')}
         </div>
     `;
-
-    container.appendChild(card);
-}
-
-function renderEducation(education: Education[]) {
-    const container = document.getElementById("education")!;
-    container.innerHTML = '';
-
-    const card = document.createElement("div");
-    card.className = "education-card";
-
-    const frontTitle = translations[currentLang].educationTitle;
-
-    card.innerHTML = `
-        <div class="card-inner">
-            <div class="card-front">
-                <h4>${frontTitle}</h4>
-            </div>
-            <div class="card-back">
-                <div class="education-list">
-                    ${education.map(edu => `
-                        <div>
-                            <strong>${edu.institution}</strong><br>
-                            ${edu.degree}<br>
-                            <small>${edu.period}</small>
-                        </div>
-                    `).join('')}
-                </div>
-            </div>
-        </div>
-    `;
-
-    container.appendChild(card);
-}
-
-function renderOtherStudies(otherStudies: OtherStudy[]) {
-    const container = document.getElementById("other-studies")!;
-    container.innerHTML = '';
-
-    const card = document.createElement("div");
-    card.className = "other-studies-card";
-
-    const frontTitle = translations[currentLang].otherStudiesTitle;
-
-    card.innerHTML = `
-        <div class="card-inner">
-            <div class="card-front">
-                <h4>${frontTitle}</h4>
-            </div>
-            <div class="card-back">
-                ${otherStudies.map(study => `
-                    <div>
-                        <strong>${study.course}</strong><br>
-                        ${study.institution}<br>
-                        <small>${study.period}</small>
-                    </div>
-                `).join('<hr>')}
-            </div>
-        </div>
-    `;
-
-    container.appendChild(card);
 }
 
 function renderExperience(experience: Experience[]) {
     const container = document.getElementById("experience")!;
-    container.innerHTML = '';
-
-    experience.forEach((exp) => {
-        const card = document.createElement("div");
-        card.className = "experience-card";
-
-        card.innerHTML = `
-            <div class="card-inner">
-                <div class="card-front">
-                    <h4>${exp.company}</h4>
-                    <h2>${exp.role}</h2>
-                    <small>${exp.period}</small>
+    container.innerHTML = `
+        <div class="timeline">
+            ${experience.map(exp => `
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <span class="timeline-period">${exp.period}</span>
+                    </div>
+                    <div class="timeline-right">
+                        <div class="timeline-company">${exp.company}</div>
+                        <div class="timeline-role">${exp.role}</div>
+                        <ul class="timeline-tasks">
+                            ${exp.tasks.map(task => `<li>${task}</li>`).join('')}
+                        </ul>
+                    </div>
                 </div>
-                <div class="card-back">
-                    <ul>
-                        ${exp.tasks.map((task) => `<li>${task}</li>`).join("")}
-                    </ul>
-                </div>
-            </div>
-        `;
-
-        container.appendChild(card);
-    });
-
-    console.log("Experiences rendered with flip effect");
+            `).join('')}
+        </div>
+    `;
 }
 
 function renderSkills(skills: Skill[]) {
     const container = document.getElementById("skills")!;
-    container.innerHTML = '';
-
-    const card = document.createElement("div");
-    card.className = "skills-card";
-
-    const frontTitle = translations[currentLang].skillsTitle;
-
-    card.innerHTML = `
-        <div class="card-inner">
-            <div class="card-front">
-                <h4>${frontTitle}</h4>
-            </div>
-            <div class="card-back">
-                <div class="skills-grid">
-                    ${skills.map(skill => `
-                        <div>
-                            ${skill.name}
-                            <div class="bar">
-                                <span data-level="${skill.level}"></span>
-                            </div>
-                        </div>
-                    `).join('')}
+    container.innerHTML = `
+        <div class="skills-grid">
+            ${skills.map(skill => `
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">${skill.name}</span>
+                        <span class="skill-level-text">${skill.level}%</span>
+                    </div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-level="${skill.level}"></div>
+                    </div>
                 </div>
-            </div>
+            `).join('')}
         </div>
     `;
 
-    container.appendChild(card);
-
-    document.querySelectorAll<HTMLElement>(".bar span").forEach((bar) => {
-        bar.style.width = bar.dataset.level + "%";
+    // Animate bars after paint
+    requestAnimationFrame(() => {
+        document.querySelectorAll<HTMLElement>('.skill-bar-fill').forEach(bar => {
+            bar.style.width = (bar.dataset.level ?? '0') + '%';
+        });
     });
 }
 
+function renderEducation(education: Education[]) {
+    const container = document.getElementById("education")!;
+    container.innerHTML = `
+        <div class="edu-list">
+            ${education.map(edu => `
+                <div class="edu-item">
+                    <div class="edu-institution">${edu.institution}</div>
+                    <div class="edu-degree">${edu.degree}</div>
+                    <div class="edu-period">${edu.period}</div>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
+
+function renderOtherStudies(otherStudies: OtherStudy[]) {
+    const container = document.getElementById("other-studies")!;
+    container.innerHTML = `
+        <div class="edu-list">
+            ${otherStudies.map(study => `
+                <div class="edu-item">
+                    <div class="edu-institution">${study.course}</div>
+                    <div class="edu-degree">${study.institution}</div>
+                    <div class="edu-period">${study.period}</div>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
+
 function setupEmailIcon(email: string) {
-    const emailIcon = document.getElementById("email-icon") as HTMLElement;
-    if (emailIcon) {
-        emailIcon.style.fontSize = "24px";
-        emailIcon.style.cursor = "pointer";
-        emailIcon.style.color = "var(--primary)";
-        emailIcon.addEventListener("click", async () => {
-            try {
-                await navigator.clipboard.writeText(email);
-                showPopup("Email copied to clipboard!");
-            } catch (err) {
-                console.error("Failed to copy: ", err);
-                const textArea = document.createElement("textarea");
-                textArea.value = email;
-                document.body.appendChild(textArea);
-                textArea.select();
-                document.execCommand("copy");
-                document.body.removeChild(textArea);
-                showPopup("Email copied to clipboard!");
-            }
-        });
-    }
+    const emailIcon = document.getElementById("email-icon");
+    if (!emailIcon) return;
+
+    emailIcon.addEventListener("click", async () => {
+        try {
+            await navigator.clipboard.writeText(email);
+        } catch {
+            const ta = document.createElement("textarea");
+            ta.value = email;
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            document.body.removeChild(ta);
+        }
+        showPopup("Email copiado · " + email);
+    });
 }
 
 function showPopup(message: string) {
+    const existing = document.getElementById('copy-popup');
+    if (existing) existing.remove();
+
     const popup = document.createElement("div");
+    popup.id = 'copy-popup';
     popup.textContent = message;
-    popup.style.position = "fixed";
-    popup.style.top = "50%";
-    popup.style.left = "50%";
-    popup.style.transform = "translate(-50%, -50%)";
-    popup.style.background = "var(--card)";
-    popup.style.color = "var(--primary)";
-    popup.style.border = "2px solid var(--primary)";
-    popup.style.padding = "20px";
-    popup.style.borderRadius = "10px";
-    popup.style.boxShadow = "0 0 20px rgba(0, 255, 204, 0.5)";
-    popup.style.fontFamily = "'Press Start 2P', cursive";
-    popup.style.fontSize = "12px";
-    popup.style.zIndex = "1000";
+    Object.assign(popup.style, {
+        position: "fixed",
+        bottom: "32px",
+        left: "50%",
+        transform: "translateX(-50%)",
+        background: "#17171d",
+        color: "#ededf0",
+        border: "1px solid #2c2c38",
+        padding: "12px 20px",
+        borderRadius: "8px",
+        fontFamily: "'Inter', sans-serif",
+        fontSize: "13px",
+        zIndex: "1000",
+        opacity: "0",
+        transition: "opacity 0.2s ease",
+        whiteSpace: "nowrap"
+    });
+
     document.body.appendChild(popup);
+    requestAnimationFrame(() => { popup.style.opacity = "1"; });
 
     setTimeout(() => {
-        document.body.removeChild(popup);
-    }, 5000);
+        popup.style.opacity = "0";
+        setTimeout(() => popup.remove(), 200);
+    }, 3000);
+}
+
+function initScrollObserver() {
+    const sections = document.querySelectorAll<HTMLElement>('.fade-section');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    sections.forEach(s => observer.observe(s));
+
+    // Show nav name only when hero scrolls out of view
+    const heroContent = document.querySelector<HTMLElement>('.hero-content');
+    const navName = document.querySelector<HTMLElement>('.nav-name');
+    if (heroContent && navName) {
+        const heroObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                navName.classList.toggle('nav-name--visible', !entry.isIntersecting);
+            });
+        }, { threshold: 0 });
+        heroObserver.observe(heroContent);
+    }
 }
 
 loadCV();
+
