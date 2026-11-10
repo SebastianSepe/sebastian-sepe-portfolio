@@ -2,7 +2,7 @@
     "es": {
         "ui": {
             "heroRole": "Software Engineer · QA Automation · AI & Developer Tools",
-            "heroSummary": "Ingeniero autodidacta con base en Quality Engineering. Convierto problemas reales en software: herramientas, scripts, automatizaciones y flujos con agentes de IA.",
+            "heroSummary": "Desarrollador autodidacta con base en Quality Engineering. Convierto problemas reales en software: herramientas, scripts, automatizaciones y flujos con agentes de IA.",
             "ctaProjects": "Ver proyectos",
             "ctaContact": "Contacto",
             "navAbout": "Perfil",
@@ -195,7 +195,7 @@
     "en": {
         "ui": {
             "heroRole": "Software Engineer · QA Automation · AI & Developer Tools",
-            "heroSummary": "Self-taught engineer with a Quality Engineering foundation. I turn real problems into software: tools, scripts, automations and AI-agent workflows.",
+            "heroSummary": "Self-taught developer with a Quality Engineering foundation. I turn real problems into software: tools, scripts, automations and AI-agent workflows.",
             "ctaProjects": "View projects",
             "ctaContact": "Contact",
             "navAbout": "About",
