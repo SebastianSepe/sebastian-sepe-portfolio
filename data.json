@@ -166,6 +166,7 @@
             { "title": "QA & Automation", "items": [
                 { "name": "Test Automation", "tier": "practice" },
                 { "name": "Functional Testing", "tier": "practice" },
+                { "name": "Mobile QA (Android & iOS)", "tier": "practice" },
                 { "name": "API Testing", "tier": "practice" },
                 { "name": "Debugging", "tier": "practice" },
                 { "name": "Visual Testing", "tier": "learning" }
@@ -175,6 +176,8 @@
                 { "name": "GitHub", "tier": "practice" },
                 { "name": "ADB", "tier": "practice" },
                 { "name": "Android SDK", "tier": "practice" },
+                { "name": "Xcode", "tier": "practice" },
+                { "name": "iOS Simulator", "tier": "practice" },
                 { "name": "Emulators", "tier": "practice" },
                 { "name": "Docker", "tier": "learning" }
             ]}
@@ -359,6 +362,7 @@
             { "title": "QA & Automation", "items": [
                 { "name": "Test Automation", "tier": "practice" },
                 { "name": "Functional Testing", "tier": "practice" },
+                { "name": "Mobile QA (Android & iOS)", "tier": "practice" },
                 { "name": "API Testing", "tier": "practice" },
                 { "name": "Debugging", "tier": "practice" },
                 { "name": "Visual Testing", "tier": "learning" }
@@ -368,6 +372,8 @@
                 { "name": "GitHub", "tier": "practice" },
                 { "name": "ADB", "tier": "practice" },
                 { "name": "Android SDK", "tier": "practice" },
+                { "name": "Xcode", "tier": "practice" },
+                { "name": "iOS Simulator", "tier": "practice" },
                 { "name": "Emulators", "tier": "practice" },
                 { "name": "Docker", "tier": "learning" }
             ]}
