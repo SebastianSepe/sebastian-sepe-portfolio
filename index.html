@@ -4,85 +4,76 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sebastián Sepe</title>
+    <title>Sebastian Rodriguez Sepe — Software Engineer | QA Automation | AI &amp; Developer Tools</title>
+    <meta name="description" content="Portfolio de Sebastian Rodriguez Sepe: Software Engineer con base en Quality Engineering, enfocado en QA Automation, agentes de IA, MCP y herramientas para desarrolladores." />
+    <meta name="author" content="Sebastian Rodriguez Sepe" />
+    <meta name="theme-color" content="#0b0d10" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sebastian Rodriguez Sepe — Software Engineer" />
+    <meta property="og:description" content="QA Automation, AI Agents &amp; Developer Tools." />
+    <meta property="og:image" content="images/Seba-Buddy2.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
-    <link rel="shortcut icon" href="images/Seba-Buddy.png" type="image/png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="icon" href="images/Seba-Buddy.png" type="image/png" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+    <a class="skip" href="#main">Skip to content</a>
 
-    <nav class="navbar">
-        <span class="nav-name">Sebastián Tomás Rodríguez Sepe</span>
-        <button id="lang-toggle" class="lang-toggle">ES</button>
-    </nav>
+    <header class="topbar">
+        <a class="brand" href="#top" aria-label="Sebastian Rodriguez Sepe"><span class="prompt">&gt;_</span> srs</a>
+        <nav class="nav" id="nav" aria-label="Main"></nav>
+        <button id="lang-toggle" class="lang-toggle" aria-label="Change language">EN</button>
+    </header>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <img src="images/Seba-Buddy2.png" alt="Sebastián" class="profile-image" />
-                <div class="hero-text">
-                    <h1>Sebastián Tomás<br>Rodríguez Sepe</h1>
-                    <p class="hero-subtitle" id="hero-subtitle">QA Sr · Developer Jr</p>
+    <main id="main">
+        <section class="hero" id="top">
+            <div class="wrap hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow mono">// hello, world</p>
+                    <h1>Sebastian<br />Rodriguez Sepe</h1>
+                    <p class="hero-role mono" id="hero-role"></p>
+                    <p class="hero-summary" id="hero-summary"></p>
+                    <div class="cta" id="cta"></div>
+                    <ul class="focus mono" id="focus" aria-label="Focus areas"></ul>
                 </div>
+                <div class="hero-side">
+                <img class="avatar" src="images/Seba-Buddy2.png" alt="Sebastian con su perro Buddy" width="160" height="160" />
+                <div class="terminal" aria-hidden="true">
+                    <div class="term-bar"><i></i><i></i><i></i><span class="mono">~/sebastian</span></div>
+                    <pre class="term-body mono" id="term-body"></pre>
+                </div>
+            </div>
             </div>
         </section>
 
-        <div class="container">
-
-            <section class="section fade-section">
-                <h2 class="section-title" id="profile-title">Perfil Profesional</h2>
-                <div id="profile"></div>
-            </section>
-
-            <section class="section fade-section">
-                <h2 class="section-title" id="experience-title">Experiencia Laboral</h2>
-                <div id="experience"></div>
-            </section>
-
-            <section class="section fade-section">
-                <h2 class="section-title" id="skills-title">Conocimientos Técnicos</h2>
-                <div id="skills"></div>
-            </section>
-
-            <div class="two-col">
-                <section class="section fade-section">
-                    <h2 class="section-title" id="education-title">Educación</h2>
-                    <div id="education"></div>
-                </section>
-                <section class="section fade-section">
-                    <h2 class="section-title" id="other-studies-title">Otros Estudios</h2>
-                    <div id="other-studies"></div>
-                </section>
-            </div>
-
+        <div class="wrap">
+            <section class="section" id="about"></section>
+            <section class="section" id="experience"></section>
+            <section class="section" id="projects"></section>
+            <section class="section" id="skills"></section>
+            <section class="section" id="education"></section>
         </div>
     </main>
 
-    <footer>
-        <p id="footer-text" class="footer-text">Presiona una opción para contactar</p>
-        <div class="socials">
-            <a href="https://www.linkedin.com/in/sebastian-rodr%C3%ADguez-sepe/" target="_blank" aria-label="LinkedIn">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/SebastianSepe" target="_blank" aria-label="GitHub">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.instagram.com/sebasepe/" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a id="email-icon" title="Click to copy email" style="cursor:pointer">
-                <i class="fas fa-envelope"></i>
-            </a>
+    <footer class="footer" id="contact">
+        <div class="wrap footer-inner">
+            <h2 id="contact-title"></h2>
+            <div class="socials">
+                <a href="https://github.com/SebastianSepe" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/sebastian-rodr%C3%ADguez-sepe/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                <a href="https://www.instagram.com/sebasepe/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+                <button id="email-btn" class="mono" type="button"></button>
+            </div>
+            <p class="copy mono">© 2026 Sebastian Rodriguez Sepe</p>
         </div>
-        <p class="footer-copy">© 2026 Sebastián Rodríguez Sepe</p>
     </footer>
 
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
     <script type="module" src="dist/main.js"></script>
 </body>
 

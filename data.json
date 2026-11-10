@@ -1,67 +1,63 @@
 {
     "es": {
+        "ui": {
+            "heroRole": "Software Engineer · QA Automation · AI & Developer Tools",
+            "heroSummary": "Ingeniero autodidacta con base en Quality Engineering. Convierto problemas reales en software: herramientas, scripts, automatizaciones y flujos con agentes de IA.",
+            "ctaProjects": "Ver proyectos",
+            "ctaContact": "Contacto",
+            "navAbout": "Perfil",
+            "navExperience": "Experiencia",
+            "navProjects": "Proyectos",
+            "navSkills": "Skills",
+            "navEducation": "Educación",
+            "aboutTitle": "Perfil",
+            "experienceTitle": "Experiencia profesional",
+            "experienceNote": "Experiencia en empresas. Se describe en términos generales; no incluye información interna.",
+            "projectsTitle": "Proyectos",
+            "projectsNote": "Herramientas y proyectos técnicos en los que trabajo o participo. Se describen solo los aspectos publicables.",
+            "skillsTitle": "Stack técnico",
+            "educationTitle": "Educación",
+            "otherStudiesTitle": "Otros estudios",
+            "contactTitle": "Hablemos",
+            "copied": "Email copiado",
+            "labelContext": "Contexto",
+            "labelProblem": "Problema",
+            "labelSolution": "Solución",
+            "labelRole": "Mi participación",
+            "labelStack": "Tecnologías",
+            "repo": "Repositorio",
+            "pending": "Repositorio: pendiente de publicar",
+            "present": "Actualidad",
+            "legendPractice": "Uso práctico",
+            "legendAcademic": "Base académica",
+            "legendLearning": "En aprendizaje"
+        },
         "profile": [
-            "Profesional de IT con sólida experiencia en aseguramiento de calidad de software, testing funcional y automatizado.",
-            "Actualmente me desempeño como QA, participando en proyectos de mediana y gran escala, con foco en calidad, estabilidad y mejora continua.",
-            "Experiencia en automatización de pruebas, análisis de logs, testing de APIs y mantenimiento de infraestructura de testing.",
-            "Desarrollo de agentes de Inteligencia Artificial aplicados a QA: procesado de logs, análisis automatizado y agentes tipo chat-with-database integrados con LLMs de Anthropic, OpenAI y Gemini.",
-            "En constante capacitación en IA, explorando su aplicación práctica en ingeniería de software y aseguramiento de calidad.",
-            "Perfil técnico, organizado y proactivo, con interés en el crecimiento profesional hacia roles de mayor responsabilidad técnica."
+            "Mi trayectoria empezó en Quality Assurance y evolucionó hacia la ingeniería: hoy programo herramientas, automatizo procesos y exploro cómo la inteligencia artificial puede mejorar los flujos de desarrollo y testing.",
+            "Soy autodidacta, curioso y orientado a resolver problemas concretos. Cuando encuentro una tarea repetitiva o un proceso frágil, lo trato como un problema de software.",
+            "Mi objetivo es crecer hacia roles de desarrollo e ingeniería, con foco en agentes de IA, integraciones y herramientas para desarrolladores."
         ],
-        "education": [
-            {
-                "institution": "UDE",
-                "degree": "Ingeniería en Sistemas",
-                "period": "2019 - Actualidad"
-            },
-            {
-                "institution": "FCEA",
-                "degree": "Contador Público",
-                "period": "2018 – 2019"
-            },
-            {
-                "institution": "UTU",
-                "degree": "Administración de Empresas",
-                "period": "2012 - 2017"
-            },
-            {
-                "institution": "COLEGIO Y LICEO",
-                "degree": "AGUSTÍN FERREIRO",
-                "period": "2012 – 2011"
-            }
-        ],
-        "otherStudies": [
-            {
-                "course": "Curso React Native",
-                "institution": "Coder House",
-                "period": "2023 - 2023"
-            },
-            {
-                "course": "Inglés",
-                "institution": "Instituto Dickens",
-                "period": "2022 - 2023"
-            },
-            {
-                "course": "Curso Data Science",
-                "institution": "Coder House",
-                "period": "2022 - 2022"
-            }
+        "focus": [
+            "Software Development",
+            "QA Automation & Quality Engineering",
+            "AI Agents, Skills & MCP",
+            "Developer Tools & Productividad",
+            "Automatización e Integración"
         ],
         "experience": [
             {
-                "company": "GENEXUS",
-                "role": "Quality Assurance",
+                "company": "GENEXUS by Globant",
+                "role": "Quality & Delivery",
                 "period": "2022 · Actualidad",
                 "tasks": [
-                    "Diseño, ejecución y mantenimiento de pruebas automatizadas Mobile (Android e iOS).",
-                    "Ejecución de pruebas funcionales, regresiones y smoke tests.",
-                    "Análisis de logs, detección temprana de defectos y seguimiento de incidencias.",
-                    "Mantenimiento de infraestructura para ejecución de pruebas automatizadas (dispositivos físicos y virtuales).",
-                    "Desarrollo de agentes de Inteligencia Artificial para procesado y análisis de logs de pruebas.",
-                    "Implementación de agentes tipo chat-with-database integrados con LLMs de Anthropic, OpenAI y Gemini.",
-                    "Mockeo de servicios para pruebas automatizadas mobile mediante WireMock, generando stubs a partir de logs de sesiones previas.",
+                    "Testing funcional y automatizado sobre aplicaciones y plataformas, en entornos Windows, Android e iOS.",
+                    "Análisis, diagnóstico y reproducción de errores; debugging y análisis de logs.",
+                    "Desarrollo de scripts y herramientas para automatizar procesos de ingeniería.",
+                    "Trabajo con builds, SDKs, emuladores, pipelines y entornos de ejecución.",
+                    "Exploración e integración de inteligencia artificial en workflows de QA.",
                     "Colaboración técnica con equipos de desarrollo, producto y negocio."
-                ]
+                ],
+                "highlight": "Mi rol no se limita a ejecutar casos de prueba: investigo, programo y automatizo para mejorar los procesos."
             },
             {
                 "company": "ABITAB",
@@ -71,9 +67,7 @@
                     "Análisis, diseño y ejecución de casos de prueba funcionales (Black Box).",
                     "Testing de aplicaciones web, sistemas transaccionales y APIs REST.",
                     "Testing de periféricos (POS, impresoras, validadoras, cámaras).",
-                    "Análisis de logs, reporte y seguimiento de incidentes.",
-                    "Consultas SQL para validación de datos.",
-                    "Colaboración técnica con equipos funcionales y de desarrollo."
+                    "Análisis de logs, reporte y seguimiento de incidentes; consultas SQL para validación de datos."
                 ]
             },
             {
@@ -82,7 +76,6 @@
                 "period": "2019 · 2021",
                 "tasks": [
                     "Participación en proyectos de integración y migración de sistemas.",
-                    "Análisis de flujos funcionales para la creación de casos de prueba.",
                     "Ejecución de pruebas funcionales, regresiones y UAT.",
                     "Consultas SQL para validación e integridad de datos."
                 ]
@@ -92,143 +85,182 @@
                 "role": "Auxiliar Contable",
                 "period": "2018 · 2019",
                 "tasks": [
-                    "Procesamiento y liquidación de haberes.",
-                    "Control y verificación de documentación contable.",
-                    "Carga y validación de información en sistemas administrativos.",
-                    "Soporte operativo al área contable y administrativa."
+                    "Procesamiento y liquidación de haberes; control de documentación contable."
                 ]
             }
         ],
-        "skills": [
+        "projects": [
             {
-                "name": "Inglés",
-                "level": 50
-            },
-            {
-                "name": "HTML / CSS",
-                "level": 50
-            },
-            {
-                "name": "JavaScript",
-                "level": 35
-            },
-            {
-                "name": "Python",
-                "level": 50
+                "name": "RetestOS",
+                "tagline": "AI-powered QA orchestration",
+                "status": "Activo",
+                "statusKey": "active",
+                "context": "Proyecto de orquestación de testing con inteligencia artificial.",
+                "problem": "Validar cambios de forma repetible suele requerir pasos manuales y mucho contexto humano.",
+                "solution": "Un harness que coordina agentes, skills e integraciones MCP para ejecutar flujos de validación de punta a punta.",
+                "role": "Ownership del proyecto: diseño y desarrollo.",
+                "tech": ["AI Agents", "MCP", "Skills", "Test Automation", "Orchestration"],
+                "links": [],
+                "visual": "retestos"
             },
             {
-                "name": "SQL",
-                "level": 65
-            },
-                        {
-                "name": "Kotlin",
-                "level": 50
-            },
-            {
-                "name": "C y C++",
-                "level": 50
-            },
-            {
-                "name": "Java",
-                "level": 30
+                "name": "GxSync Tool",
+                "tagline": "GeneXus version management",
+                "status": "Finalizado",
+                "statusKey": "done",
+                "context": "Herramienta para usuarios técnicos que trabajan con múltiples versiones de GeneXus.",
+                "problem": "Descargar, elegir e instalar distintas versiones y builds es lento y repetitivo.",
+                "solution": "Automatiza la descarga, selección, instalación y gestión de versiones, simplificando la configuración de entornos.",
+                "role": "Ownership del proyecto: desarrollo de la herramienta.",
+                "tech": ["Automation", "Developer Tools"],
+                "links": [],
+                "visual": "gxsync"
             },
             {
-                "name": "Testing & QA",
-                "level": 90
-            },
-                        {
-                "name": "Scrum",
-                "level": 70
-            },
-                        {
-                "name": "Liquidación de Sueldos",
-                "level": 90
-            },
-                        {
-                "name": "Microsoft Office",
-                "level": 85
+                "name": "Android Advanced Visual Testing",
+                "tagline": "Visual testing sobre emuladores",
+                "status": "Experimental",
+                "statusKey": "experimental",
+                "context": "Exploración de testing visual para aplicaciones Android.",
+                "problem": "Detectar regresiones visuales requiere comparar pantallas de forma manual.",
+                "solution": "Automatización de interacciones vía ADB, captura y comparación de screenshots. Se explora además integrar emuladores con aplicaciones web mediante gRPC (experimental).",
+                "role": "Participo en el proyecto (no soy owner): investigación y prototipado.",
+                "tech": ["ADB", "Android SDK", "Emulators", "gRPC", "Visual Testing"],
+                "links": [],
+                "visual": "android"
             }
         ],
-        "contact": {
-            "email": "sebastiansepe@outlook.es"
-        }
-    },
-    "en": {
-        "profile": [
-            "IT professional with solid experience in software quality assurance, functional and automated testing.",
-            "Currently working as a QA Automation tester, participating in medium and large-scale projects with a focus on quality, stability, and continuous improvement.",
-            "Experience in test automation, log analysis, API testing, and maintenance of testing infrastructure.",
-            "Development of AI agents applied to QA: log processing, automated analysis, and chat-with-database agents integrated with LLMs from Anthropic, OpenAI, and Gemini.",
-            "Continuously upskilling in Artificial Intelligence, exploring its practical applications in software engineering and quality assurance.",
-            "Technical, organized, and proactive profile, with a strong interest in professional growth toward roles with greater technical responsibility."
+        "aiBlock": {
+            "title": "AI Agents, Skills & MCP",
+            "text": "Exploración continua de Model Context Protocol, agentes, skills e integración de herramientas externas para automatizar workflows y aplicar IA en procesos de ingeniería y QA.",
+            "tags": ["MCP", "AI Agents", "Skills", "AI Workflows", "Tool Integration"]
+        },
+        "skills": [
+            { "title": "Lenguajes", "items": [
+                { "name": "Python", "tier": "practice" },
+                { "name": "JavaScript", "tier": "practice" },
+                { "name": "TypeScript", "tier": "practice" },
+                { "name": "Kotlin", "tier": "practice" },
+                { "name": "C#", "tier": "academic" },
+                { "name": "C++", "tier": "academic" }
+            ]},
+            { "title": "Frontend", "items": [
+                { "name": "HTML", "tier": "practice" },
+                { "name": "CSS", "tier": "practice" },
+                { "name": "React", "tier": "academic" },
+                { "name": "React Native", "tier": "academic" }
+            ]},
+            { "title": "Backend & Desarrollo", "items": [
+                { "name": "APIs", "tier": "practice" },
+                { "name": "Integraciones", "tier": "practice" },
+                { "name": ".NET", "tier": "academic" },
+                { "name": "Java", "tier": "academic" }
+            ]},
+            { "title": "AI Engineering", "items": [
+                { "name": "AI Agents", "tier": "practice" },
+                { "name": "MCP", "tier": "practice" },
+                { "name": "Skills", "tier": "practice" },
+                { "name": "AI Workflows", "tier": "practice" },
+                { "name": "Tool Integration", "tier": "learning" }
+            ]},
+            { "title": "QA & Automation", "items": [
+                { "name": "Test Automation", "tier": "practice" },
+                { "name": "Functional Testing", "tier": "practice" },
+                { "name": "API Testing", "tier": "practice" },
+                { "name": "Debugging", "tier": "practice" },
+                { "name": "Visual Testing", "tier": "learning" }
+            ]},
+            { "title": "Tools & Infra", "items": [
+                { "name": "Git", "tier": "practice" },
+                { "name": "GitHub", "tier": "practice" },
+                { "name": "ADB", "tier": "practice" },
+                { "name": "Android SDK", "tier": "practice" },
+                { "name": "Emulators", "tier": "practice" },
+                { "name": "Docker", "tier": "learning" }
+            ]}
         ],
         "education": [
-            {
-                "institution": "UDE",
-                "degree": "Systems Engineering",
-                "period": "2019 - Present"
-            },
-            {
-                "institution": "FCEA",
-                "degree": "Public Accountant",
-                "period": "2018 – 2019"
-            },
-            {
-                "institution": "UTU",
-                "degree": "Business Administration",
-                "period": "2012 - 2017"
-            },
-            {
-                "institution": "COLEGIO Y LICEO",
-                "degree": "AGUSTÍN FERREIRO",
-                "period": "2012 – 2011"
-            }
+            { "institution": "UDE", "degree": "Ingeniería en Sistemas", "period": "2019 - Actualidad", "note": "En curso. Foco en programación, algoritmos, estructuras de datos y fundamentos de ingeniería de software." },
+            { "institution": "FCEA", "degree": "Contador Público", "period": "2018 – 2019" },
+            { "institution": "UTU", "degree": "Administración de Empresas", "period": "2012 - 2017" },
+            { "institution": "COLEGIO Y LICEO", "degree": "AGUSTÍN FERREIRO", "period": "" }
         ],
         "otherStudies": [
-            {
-                "course": "React Native Course",
-                "institution": "Coder House",
-                "period": "2023 - 2023"
-            },
-            {
-                "course": "English",
-                "institution": "Instituto Dickens",
-                "period": "2022 - 2023"
-            },
-            {
-                "course": "Data Science Course",
-                "institution": "Coder House",
-                "period": "2022 - 2022"
-            }
+            { "course": "Curso React Native", "institution": "Coder House", "period": "2023" },
+            { "course": "Inglés", "institution": "Instituto Dickens", "period": "2022 - 2023" },
+            { "course": "Curso Data Science", "institution": "Coder House", "period": "2022" }
+        ],
+        "contact": { "email": "sebastiansepe@outlook.es" }
+    },
+    "en": {
+        "ui": {
+            "heroRole": "Software Engineer · QA Automation · AI & Developer Tools",
+            "heroSummary": "Self-taught engineer with a Quality Engineering foundation. I turn real problems into software: tools, scripts, automations and AI-agent workflows.",
+            "ctaProjects": "View projects",
+            "ctaContact": "Contact",
+            "navAbout": "About",
+            "navExperience": "Experience",
+            "navProjects": "Projects",
+            "navSkills": "Skills",
+            "navEducation": "Education",
+            "aboutTitle": "About",
+            "experienceTitle": "Professional experience",
+            "experienceNote": "Company experience. Described in general terms; contains no internal information.",
+            "projectsTitle": "Projects",
+            "projectsNote": "Tools and technical projects I own or contribute to. Only publishable aspects are described.",
+            "skillsTitle": "Tech stack",
+            "educationTitle": "Education",
+            "otherStudiesTitle": "Other studies",
+            "contactTitle": "Let's talk",
+            "copied": "Email copied",
+            "labelContext": "Context",
+            "labelProblem": "Problem",
+            "labelSolution": "Solution",
+            "labelRole": "My contribution",
+            "labelStack": "Stack",
+            "repo": "Repository",
+            "pending": "Repository: not published yet",
+            "present": "Present",
+            "legendPractice": "Hands-on",
+            "legendAcademic": "Academic foundation",
+            "legendLearning": "Learning"
+        },
+        "profile": [
+            "My path started in Quality Assurance and evolved into engineering: today I build tools, automate processes and explore how artificial intelligence can improve development and testing workflows.",
+            "I'm self-taught, curious and focused on concrete problems. When I find a repetitive task or a fragile process, I treat it as a software problem.",
+            "My goal is to grow into development and engineering roles, focused on AI agents, integrations and developer tools."
+        ],
+        "focus": [
+            "Software Development",
+            "QA Automation & Quality Engineering",
+            "AI Agents, Skills & MCP",
+            "Developer Tools & Productivity",
+            "Automation & Integration"
         ],
         "experience": [
             {
-                "company": "GENEXUS",
-                "role": "Quality Assurance",
+                "company": "GENEXUS by Globant",
+                "role": "Quality & Delivery",
                 "period": "2022 · Present",
                 "tasks": [
-                    "Design, execution, and maintenance of automated Mobile tests (Android and iOS).",
-                    "Execution of functional tests, regression tests, and smoke tests.",
-                    "Log analysis, early defect detection, and incident tracking.",
-                    "Maintenance of infrastructure for automated testing execution (physical and virtual devices).",
-                    "Development of AI agents for automated test log processing and analysis.",
-                    "Implementation of chat-with-database agents integrated with LLMs from Anthropic, OpenAI, and Gemini.",
-                    "Service mocking for mobile automated tests using WireMock, generating stubs from past test session logs.",
-                    "Technical collaboration with development, product, and business teams."
-                ]
-
+                    "Functional and automated testing of applications and platforms across Windows, Android and iOS.",
+                    "Error analysis, diagnosis and reproduction; debugging and log analysis.",
+                    "Scripts and tooling to automate engineering processes.",
+                    "Working with builds, SDKs, emulators, pipelines and execution environments.",
+                    "Exploring and integrating artificial intelligence into QA workflows.",
+                    "Technical collaboration with development, product and business teams."
+                ],
+                "highlight": "My role goes beyond running test cases: I investigate, code and automate to improve processes."
             },
             {
                 "company": "ABITAB",
                 "role": "Quality Assurance",
                 "period": "2021 · 2022",
                 "tasks": [
-                    "Analysis, design, and execution of functional test cases (Black Box).",
-                    "Testing of web applications, transactional systems, and REST APIs.",
-                    "Testing of peripherals (POS devices, printers, validators, cameras).",
-                    "Log analysis, incident reporting, and tracking.",
-                    "SQL queries for data validation.",
-                    "Technical collaboration with functional and development teams."
+                    "Analysis, design and execution of functional (Black Box) test cases.",
+                    "Testing of web applications, transactional systems and REST APIs.",
+                    "Peripheral testing (POS, printers, validators, cameras).",
+                    "Log analysis, incident reporting and tracking; SQL queries for data validation."
                 ]
             },
             {
@@ -237,8 +269,7 @@
                 "period": "2019 · 2021",
                 "tasks": [
                     "Participation in system integration and migration projects.",
-                    "Functional flow analysis for test case creation.",
-                    "Execution of functional tests, regressions, and UAT.",
+                    "Functional, regression and UAT testing.",
                     "SQL queries for data validation and integrity."
                 ]
             },
@@ -247,41 +278,111 @@
                 "role": "Accounting Assistant",
                 "period": "2018 · 2019",
                 "tasks": [
-                    "Payroll processing and salary settlement.",
-                    "Control and verification of accounting documentation.",
-                    "Data entry and validation in administrative systems.",
-                    "Operational support for accounting and administrative areas."
+                    "Payroll processing; control of accounting documentation."
                 ]
             }
         ],
-        "skills": [
+        "projects": [
             {
-                "name": "HTML / CSS",
-                "level": 70
+                "name": "RetestOS",
+                "tagline": "AI-powered QA orchestration",
+                "status": "Active",
+                "statusKey": "active",
+                "context": "Project for orchestrating testing with artificial intelligence.",
+                "problem": "Validating changes repeatably usually needs manual steps and a lot of human context.",
+                "solution": "A harness that coordinates agents, skills and MCP integrations to run validation flows end to end.",
+                "role": "Project owner: design and development.",
+                "tech": ["AI Agents", "MCP", "Skills", "Test Automation", "Orchestration"],
+                "links": [],
+                "visual": "retestos"
             },
             {
-                "name": "JavaScript",
-                "level": 65
+                "name": "GxSync Tool",
+                "tagline": "GeneXus version management",
+                "status": "Completed",
+                "statusKey": "done",
+                "context": "Tool for technical users who work with multiple GeneXus versions.",
+                "problem": "Downloading, choosing and installing different versions and builds is slow and repetitive.",
+                "solution": "Automates download, selection, installation and management of versions, simplifying environment setup.",
+                "role": "Project owner: tool development.",
+                "tech": ["Automation", "Developer Tools"],
+                "links": [],
+                "visual": "gxsync"
             },
             {
-                "name": "Python",
-                "level": 50
-            },
-            {
-                "name": "SQL",
-                "level": 65
-            },
-            {
-                "name": "Testing & QA",
-                "level": 90
-            },
-            {
-                "name": "Spanish",
-                "level": 100
+                "name": "Android Advanced Visual Testing",
+                "tagline": "Visual testing on emulators",
+                "status": "Experimental",
+                "statusKey": "experimental",
+                "context": "Exploration of visual testing for Android applications.",
+                "problem": "Catching visual regressions requires comparing screens by hand.",
+                "solution": "Automated interactions via ADB, screenshot capture and comparison. Also exploring emulator integration with web apps over gRPC (experimental).",
+                "role": "Contributor (not the owner): research and prototyping.",
+                "tech": ["ADB", "Android SDK", "Emulators", "gRPC", "Visual Testing"],
+                "links": [],
+                "visual": "android"
             }
         ],
-        "contact": {
-            "email": "sebastiansepe@outlook.es"
-        }
+        "aiBlock": {
+            "title": "AI Agents, Skills & MCP",
+            "text": "Ongoing exploration of the Model Context Protocol, agents, skills and external tool integration to automate workflows and apply AI in engineering and QA processes.",
+            "tags": ["MCP", "AI Agents", "Skills", "AI Workflows", "Tool Integration"]
+        },
+        "skills": [
+            { "title": "Languages", "items": [
+                { "name": "Python", "tier": "practice" },
+                { "name": "JavaScript", "tier": "practice" },
+                { "name": "TypeScript", "tier": "practice" },
+                { "name": "Kotlin", "tier": "practice" },
+                { "name": "C#", "tier": "academic" },
+                { "name": "C++", "tier": "academic" }
+            ]},
+            { "title": "Frontend", "items": [
+                { "name": "HTML", "tier": "practice" },
+                { "name": "CSS", "tier": "practice" },
+                { "name": "React", "tier": "academic" },
+                { "name": "React Native", "tier": "academic" }
+            ]},
+            { "title": "Backend & Development", "items": [
+                { "name": "APIs", "tier": "practice" },
+                { "name": "Integrations", "tier": "practice" },
+                { "name": ".NET", "tier": "academic" },
+                { "name": "Java", "tier": "academic" }
+            ]},
+            { "title": "AI Engineering", "items": [
+                { "name": "AI Agents", "tier": "practice" },
+                { "name": "MCP", "tier": "practice" },
+                { "name": "Skills", "tier": "practice" },
+                { "name": "AI Workflows", "tier": "practice" },
+                { "name": "Tool Integration", "tier": "learning" }
+            ]},
+            { "title": "QA & Automation", "items": [
+                { "name": "Test Automation", "tier": "practice" },
+                { "name": "Functional Testing", "tier": "practice" },
+                { "name": "API Testing", "tier": "practice" },
+                { "name": "Debugging", "tier": "practice" },
+                { "name": "Visual Testing", "tier": "learning" }
+            ]},
+            { "title": "Tools & Infra", "items": [
+                { "name": "Git", "tier": "practice" },
+                { "name": "GitHub", "tier": "practice" },
+                { "name": "ADB", "tier": "practice" },
+                { "name": "Android SDK", "tier": "practice" },
+                { "name": "Emulators", "tier": "practice" },
+                { "name": "Docker", "tier": "learning" }
+            ]}
+        ],
+        "education": [
+            { "institution": "UDE", "degree": "Systems Engineering", "period": "2019 - Present", "note": "In progress. Focus on programming, algorithms, data structures and software engineering fundamentals." },
+            { "institution": "FCEA", "degree": "Public Accountant", "period": "2018 – 2019" },
+            { "institution": "UTU", "degree": "Business Administration", "period": "2012 - 2017" },
+            { "institution": "COLEGIO Y LICEO", "degree": "AGUSTÍN FERREIRO", "period": "" }
+        ],
+        "otherStudies": [
+            { "course": "React Native Course", "institution": "Coder House", "period": "2023" },
+            { "course": "English", "institution": "Instituto Dickens", "period": "2022 - 2023" },
+            { "course": "Data Science Course", "institution": "Coder House", "period": "2022" }
+        ],
+        "contact": { "email": "sebastiansepe@outlook.es" }
     }
 }
